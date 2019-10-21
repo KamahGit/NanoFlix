@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(./assets/fonts/graphik.css); 
+body {
+    font-family:'graphik',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+    box-sizing: border-box;
+    min-width: 432px;
+    
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+$primary-bg-color :  #1d0844;
+
