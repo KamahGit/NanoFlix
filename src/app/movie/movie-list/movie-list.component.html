@@ -1,5 +1,9 @@
-<div class="container">
-    <div class="child">
-
-    </div>
+<div>
+    
+    <ul *ngIf='[results]' class="parent">
+        <li class="child" *ngFor="let result of results">
+            <p>{{ key }}</p>
+            <p>{{ result.title }}</p>
+        </li>
+    </ul>
 </div>

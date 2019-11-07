@@ -1,4 +1,4 @@
-$bg: #230633fd;
+$bg: #fff;
 $fontcolor: #fff;
 header {
   background-color: $bg;
@@ -14,6 +14,7 @@ header {
     flex-basis: 15%;
    
   }
+
   border-bottom: 5px solid darken($bg, 10%);
   nav {
     flex-grow: 2;
